@@ -1,25 +1,25 @@
 class Mdkg < Formula
   desc "Local-first knowledge graph and coordination kernel for humans and coding agents"
   homepage "https://mdkg.dev"
-  version "0.7.3"
+  version "0.7.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/mdkg-dev/mdkg/releases/download/v0.7.3/mdkg-aarch64-apple-darwin.tar.gz"
-      sha256 "3b63cc7d4a5ae3f728f75575acbc71420f8b79b0cf6b65c0706e7b0eb9e73032"
+      url "https://github.com/mdkg-dev/mdkg/releases/download/v0.7.4/mdkg-aarch64-apple-darwin.tar.gz"
+      sha256 "3deb78f3e27f8993e37d1d4c3160439978b797ca8e2513c49aceae6d5d7926c7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mdkg-dev/mdkg/releases/download/v0.7.3/mdkg-x86_64-apple-darwin.tar.gz"
-      sha256 "e86e058234004cfa44e056129a1075fa9465bc5988e31df2091a101d996f2477"
+      url "https://github.com/mdkg-dev/mdkg/releases/download/v0.7.4/mdkg-x86_64-apple-darwin.tar.gz"
+      sha256 "071f4b94d8e075b9b5a812d37c266d6e5ce4d59866b9d41ee5eb3bdd4817a27e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/mdkg-dev/mdkg/releases/download/v0.7.3/mdkg-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1de7996f31fb98c5d95201cbd6b4b2e1365a3e82eef1433842bb45a12c9c7609"
+      url "https://github.com/mdkg-dev/mdkg/releases/download/v0.7.4/mdkg-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e1d6c6a3106292132d0fd8cfc693a9e74cd753cf43a498fbf4bb92e64fe12656"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mdkg-dev/mdkg/releases/download/v0.7.3/mdkg-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "57ab29a7c6931043fbc410eadd9c9a963aba133dc4594827de18c1f831edf0e7"
+      url "https://github.com/mdkg-dev/mdkg/releases/download/v0.7.4/mdkg-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d3f5fb87af603911555503738c6e4441c6da20be711d973457fbf392b1b3807e"
     end
   end
   license "MIT"
